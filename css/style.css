@@ -170,8 +170,8 @@
   /*    Product.html Starts here  */
 
   .logo{
-    width: 165px;
-    height: 50px;
+    width: 160px;
+    height: 45px;
     top: 0px;
     left: 50px;
     opacity: 1;
@@ -391,6 +391,14 @@ section {
   padding: 100px 0;
 }
 
+.process-title h2{
+  font-size: 42px;
+  font-family: "S-light";
+  color: #D6A55D;
+  opacity: 1;
+  text-align: center;
+}
+
 .process-title h3{
   font-size: 32px;
   font-family: "S-light";
@@ -413,6 +421,16 @@ section {
   opacity: 1;
 }
 
+.process-obejective h5{
+  font-size: 22px;
+  font-family: "S-light";
+  color: #D6A55D;
+  opacity: 1;
+}
+
+.pt-20{
+  padding: 20px;
+}
 .p-content h3{
   font-size: 24px;
   font-family: "S-light";
@@ -423,7 +441,7 @@ section {
 .p-content h5{
   font-size: 18px;
   font-family: "S-medium";
-  color: #000000;
+  color: #D6A55D;
   opacity: 1;
 }
 
@@ -431,6 +449,14 @@ section {
   font-size: 16px;
   font-family: "S-light";
   color: #000000;
+  opacity: 1;
+}
+
+.process-content p{
+  font-size: 16px;
+  font-family: "S-light";
+  color: #000000;
+      margin-top: 46px;
   opacity: 1;
 }
 
@@ -466,6 +492,41 @@ ul li::before {
   width: 1em;
   margin-left: -1em;
 }*/
+
+
+
+/* For Existing Formulations: */
+
+.formulation-title h2{
+  font-size: 42px;
+  font-family: "S-light";
+  color: #D6A55D;
+  opacity: 1;
+}
+
+.formulation-title h3{
+  font-size: 32px;
+  font-family: "S-light";
+  color: #D6A55D;
+  opacity: 1;
+}
+
+.formulation-title h5{
+  font-size: 22px;
+  font-family: "S-light";
+  color: #D6A55D;
+  opacity: 1;
+}
+
+.formulation-title p{
+  font-size: 18px;
+  font-family: "S-light";
+  color: #000000;
+  opacity: 1;
+}
+
+/* For Existing Formulations: End */
+
 
 /* Tooltip */
 .tooltip {
@@ -504,11 +565,14 @@ ul li::before {
     opacity: 1;
 }
 
+
+.p-case img {
+  width: 100px;
+}
+
 .p-case1 img {
   width: 219px;
   box-shadow: 0 3px 14.88px 1.12px rgba(0,18,37,.17);
-  /*height: 152.52px;*/
-  /*border: 7px solid #fff;*/
   transition: all .8s;
   background-size: 50% !important;
   left: calc(50% - 80px);
@@ -521,7 +585,7 @@ ul li::before {
   margin-right: 20px;
   margin-left: 15px;
   margin-bottom: 25px;
-}
+} 
 
 .p-case2 img {
   width: 219px;
@@ -696,6 +760,47 @@ ul li::before {
 }
 
 /* end  */
+
+
+.process-btn {
+    width: 280px;
+    height: 45px;
+    text-align: center;
+    border: 1px solid #707070;
+    background: #ffffff;
+    color: #4B4B4B;
+    font-size: 16px;
+    font-family: "S-light";
+    z-index: 99999999;
+}
+
+.process-btn:hover, .process-btn:active, .process-btn:focus{
+  width: 280px;
+  text-align: center;
+cursor: pointer;
+  color: #ffffff;
+  background-color: #D6A55D;
+  font-family: "S-light";
+  border: none;
+  margin: 4px 2px;
+  transition: 0.3s;
+  z-index: 99999999;
+  
+}
+
+#mybutton1{
+  position: fixed;
+  bottom: -4px;
+  right: 30%;
+  z-index: 99999999;
+}
+
+#mybutton2 {
+  position: fixed;
+  bottom: -4px;
+  right: 50%;
+  z-index: 99999999;
+}
 
 
 /*   Products  CSS  */
@@ -930,6 +1035,7 @@ ul li::before {
       font-size: 20px;
       font-family: "S-light";
       color: #D6A55D;
+      font-weight: 600;
       opacity: 1;
     }
 
@@ -937,7 +1043,10 @@ ul li::before {
       width: 200px;
     }
 
-
+    #product-bg{
+      background: url(../img/products/bottel-bg.jpg);
+      text-align: center;
+    }
 
 
     /* Realated Products End  */
@@ -959,16 +1068,17 @@ ul li::before {
 
 
     #processArrow{
-      width: 150px;
+      width: 135px;
       position: fixed;
       left: -4%;
       top: 44%;
+      z-index: 99;
     }
 
     #processArrow span{
       position: fixed;
       left: 6%;
-      top: 52%;
+      top: 51%;
       font-size: 14px;
       font-family: "S-regular";
       color: #000000;
@@ -978,7 +1088,7 @@ ul li::before {
     }
 
     #productArrow{
-      width: 150px;
+      width: 135px;
       position: fixed;
       right: -4%;
       top: 44%;
@@ -1010,7 +1120,7 @@ ul li::before {
 
 
       .navbar-default{
-        box-shadow: 5px 10px 25px -1px #f2f2f2;
+        box-shadow: 5px 3px 9px 0px #f2f2f2;
         border: none;
       }
 
@@ -1435,7 +1545,43 @@ ul li::before {
     border: none;
     
   }
+/* Enquire button end */
 
+
+/* Search Icon */
+
+.search-icon{
+  width: 22px; 
+  margin-top: 14px; 
+  cursor: pointer;
+}
+
+
+
+/* Search Icon End */
+
+/* Login Button */
+
+.signin-btn{
+  width: 100px;
+  text-align: center;
+  border: 1px solid #707070;
+  color: #4B4B4B;
+  font-size: 16px;
+  font-family: "S-light";
+}
+
+.signin-btn:hover, .signin-btn:active, .signin-btn:focus{
+  width: 100px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #D6A55D;
+  font-family: "S-light";
+  border: none;
+  
+}
+
+/*  Login button End */
 /* Pop up contact form */
 
 /*body{
@@ -1662,7 +1808,7 @@ h4 {
 * =====================================================
 */
 footer.main-footer {
-  padding: 3rem 0;
+  padding: 20px 0;
   background: #191919;
   color: #fff;
   padding-bottom: 0;

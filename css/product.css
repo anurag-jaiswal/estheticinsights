@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 1px 0 0 0;
 }
 .fh5co-nav .menu-2 li input[type=text] {
-  padding: 0px 0px;
+  padding: 2px 0px;
   width: 50%;
   border: none;
   float: right;
@@ -170,7 +170,9 @@ h1, h2, h3, h4, h5, h6, figure {
   outline: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-.fh5co-nav .menu-2 li button {
+
+
+/* .fh5co-nav .menu-2 li button {
   margin-top: 4px;
   padding: 5px;
   background: transparent;
@@ -184,7 +186,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav .menu-2 li button:hover i, .fh5co-nav .menu-2 li button:focus i {
   color: black;
-}
+} */
+
+
+
 /* .fh5co-nav .menu-2 li.shopping-cart {
   float: right;
 } */
@@ -250,13 +255,6 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-}
-
-.sign-in a{
-  text-transform: none !important;
-  font-size: 16px;
-  color: #D6A55D !important;
-  font-family: "S-light";
 }
 
 .fh5co-nav ul li.has-dropdown {
@@ -1376,6 +1374,7 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 48px;
     font-family: "S-light";
     color: #D6A55D;
+    font-weight: 700;
     opacity: 1;
     text-align: left;
     /*margin-left: -35%;*/
