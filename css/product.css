@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 50%;
 }
 .fh5co-nav ul {
-  padding: 0;
+  /* padding: 0; */
   margin: 0;
 }
 .fh5co-nav ul li {

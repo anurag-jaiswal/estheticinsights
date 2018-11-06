@@ -42,41 +42,40 @@
 		</nav> -->
 
 		<div id="page">
-				<nav class="fh5co-nav navbar navbar-default navbar-fixed-top" role="navigation">
-						<div class="row">
-							<div class="col-lg-7 col-md-6 col-sm-4 col-xs-4">
-								<a href="../select.html"><img class="desktop logo" alt="EI logo" src="../img/logo/EI_black.png"></a>
-								<a href="../select.html"><img class="mobile logoSm" alt="mobile logo" src="../img/logo/logo_mobile.png" ></a>
-							</div>
-		
-							<div class="col-lg-5 col-md-6 col-sm-8 col-xs-8 menu-2">
-								<ul>
-									<li class="search">
-                    <div class="input-group">
-                      <input type="text" placeholder="Search..">
-                      <span class="input-group-btn">
+			<nav class="fh5co-nav navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="row">
+					<div class="col-lg-7 col-md-6 col-sm-4 col-xs-2">
+						<a href="select.html"><img class="desktop logo" alt="EI logo" src="../img/logo/EI_black.png"></a>
+						<a href="select.html"><img class="mobile logoSm" alt="mobile logo" src="../img/logo/logo_mobile.png" ></a>
+					</div>
+
+					<div class="col-lg-5 col-md-6 col-sm-8 col-xs-10 menu-2">
+						<ul>
+							<li class="search">
+									<div class="input-group">
+										<input type="text" placeholder="Search..">
+										<span class="input-group-btn">
 												<img class="search-icon" src="../img/logo/search.svg" alt="">
-                        <!-- <button class="btn btn-primary" type="button"><i class="fa fa-search"></i></button> -->
-                      </span>
-                    </div>
-                  </li>
-    
-                  <li class="shopping-cart"><span>
-                      <img src="../img/logo/bag.svg" alt="" style="width: 22px;">
-                      <!-- <small>0</small> -->
-                    </span>
-                  </li>
-    
-                  <li>
-                    <a href="../login.html"> 
-                      <button type="button" class="btn btn-default signin-btn">Sign in</button>
-                    </a>
-                  </li>
-		
-								</ul>
-							</div>
-						</div>
-					</nav>
+											<!-- <button class="btn btn-primary" type="button"><i class="fa fa-search"></i></button> -->
+										</span>
+									</div>
+								</li>
+	
+								<li class="shopping-cart"><span>
+										<img class="bag" src="../img/logo/bag.svg" alt="">
+										<!-- <small>0</small> -->
+									</span>
+								</li>
+	
+								<li>
+									<a href="login.html"> 
+										<button type="button" class="btn btn-default signin-btn">Sign in</button>
+									</a>
+								</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 
 			<!--  Previous/ Next Arrow  -->
 			<div id="processArrow">
@@ -186,7 +185,12 @@
 								<br>
 								<br>
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-										<a href="../product-desc/syndet-face-cleanser.html"><img src="../img/products/bottel.png" alt=""/></a>
+									<a href="../product-desc/syndet-face-cleanser.html">
+										<div id="product-bg">
+											<img src="../img/products/bottel.png" alt=""/>
+										</div>
+									</a> 
+										<br>	
 										<h5>Syndet Face Cleansers</h5>
 										<span> <i class="fa fa-inr"></i> 1699 </span>
 										<br>
@@ -194,25 +198,35 @@
 											<div class="value-button" id="decrease" onclick="minus1()" value="Decrease Value">-</div>
 											<input type="number" id="num1" value="0" />
 											<div class="value-button" id="increase" onclick="plus1()" value="Increase Value">+</div>
-											&nbsp;
+											&nbsp; &nbsp; 
 											<span><button type="button" class="btn btn-default product-btn1">Add to Bag</button></span>
-										</form>  										
+										</form>																	
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-										<a href="../product-desc/syndet-face-cleanser.html"><img src="../img/products/bottel.png" alt=""/></a>
-										<h5>Syndet Face Cleansers</h5>
-										<span> <i class="fa fa-inr"></i> 1699 </span>
+									<a href="../product-desc/syndet-face-cleanser.html">
+										<div id="product-bg">
+											<img src="../img/products/bottel.png" alt=""/>
+										</div>
+									</a>
 										<br>
-										<form>
-											<div class="value-button" id="decrease" onclick="minus2()" value="Decrease Value">-</div>
-											<input type="number" id="num2" value="0" />
-											<div class="value-button" id="increase" onclick="plus2()" value="Increase Value">+</div>
-											&nbsp;
-											<span><button type="button" class="btn btn-default product-btn1">Add to Bag</button></span>
-										</form>  										
+											<h5>Syndet Face Cleansers</h5>
+											<span> <i class="fa fa-inr"></i> 1699 </span>
+											<br>
+											<form>
+												<div class="value-button" id="decrease" onclick="minus2()" value="Decrease Value">-</div>
+												<input type="number" id="num2" value="0" />
+												<div class="value-button" id="increase" onclick="plus2()" value="Increase Value">+</div>
+												&nbsp; &nbsp;
+												<span><button type="button" class="btn btn-default product-btn1">Add to Bag</button></span>
+											</form>  									
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-										<a href="../product-desc/syndet-face-cleanser.html"><img src="../img/products/bottel.png" alt=""/></a>
+									<a href="../product-desc/syndet-face-cleanser.html">
+										<div id="product-bg">
+											<img src="../img/products/bottel.png" alt=""/>
+										</div>
+									</a>
+										<br>
 										<h5>Syndet Face Cleansers</h5>
 										<span> <i class="fa fa-inr"></i> 1699 </span>
 										<br>
@@ -220,9 +234,9 @@
 											<div class="value-button" id="decrease" onclick="minus3()" value="Decrease Value">-</div>
 											<input type="number" id="num3" value="0" />
 											<div class="value-button" id="increase" onclick="plus3()" value="Increase Value">+</div>
-											&nbsp;
+											&nbsp; &nbsp;
 											<span><button type="button" class="btn btn-default product-btn1">Add to Bag</button></span>
-										</form>  										
+										</form>  									
 								</div>
 
 						</div>
@@ -240,7 +254,7 @@
 						<a href="../products/cleansers.html"><div class="products-navi-item skin-side-tab1"><div>Cleansers</div></div></a>
 						<a href="../products/repairs-moisturisiers.html"><div class="repairs-navi-item skin-side-tab2"><div>Repairs/Moisturisiers</div></div></a>
 						<a href="../products/actives.html"><div class="products-navi-item skin-side-tab3 active"><div>Actives</div></div></a>
-						<a href="../products/sun-protection.html"><div class="products-navi-item skin-side-tab4"><div>Sun protection</div></div></a>
+						<a href="../products/sun-protection.html"><div class="sun-navi-item skin-side-tab4"><div>Sun protection</div></div></a>
 
 					</div>
 				</div>
