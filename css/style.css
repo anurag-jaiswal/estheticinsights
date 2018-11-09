@@ -1127,7 +1127,7 @@ cursor: pointer;
     }
 
     #productArrow{
-      width: 135px;
+      width: 215px;
       position: fixed;
       right: -4%;
       top: 44%;
@@ -1285,7 +1285,7 @@ cursor: pointer;
               position: absolute;
               left: 0;
               display: inline-block;
-               width: 85px;
+               width: 115px;
               height: 50px;
             }
             .skin-side-tab3{
@@ -1361,6 +1361,19 @@ cursor: pointer;
 
             .product .desc h3 {
                 text-align: right;
+            }
+
+            .btn-1{
+              text-align: center !important;
+              margin: 0px 0px 15px;
+            }
+
+            .btn-2{
+              text-align: center !important;
+            }
+
+            .list-inline{
+              text-align: left !important;
             }
              
         } 
@@ -1484,7 +1497,9 @@ cursor: pointer;
           .product-details h1 {
                     padding-top: 1.3em !important;
                 }
-
+          .list-inline{
+            text-align: left !important;
+          }
 
         }
 
@@ -1907,7 +1922,7 @@ h4 {
 */
 footer.main-footer {
   padding: 20px 0;
-  background: #191919;
+  background: #000000;
   color: #fff;
   padding-bottom: 0;
 }
