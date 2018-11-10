@@ -465,7 +465,7 @@ opacity: 1;
 font-size: 16px;
 font-family: "S-light";
 color: #000000;
-    margin-top: 46px;
+margin-top: 35px;
 opacity: 1;
 }
 
@@ -1112,7 +1112,7 @@ z-index: 99;
 
 
   #processArrow{
-    width: 135px;
+    width: 215px;
     position: fixed;
     left: -4%;
     top: 44%;
@@ -1132,7 +1132,7 @@ z-index: 99;
   }
 
   #productArrow{
-    width: 135px;
+    width: 215px;
     position: fixed;
     right: -4%;
     top: 44%;
@@ -1172,9 +1172,21 @@ z-index: 99;
   display: none;
   }
 
+  .mobile-arrow {
+    display: none;
+  }
+
+
   /*---------------------------------------
   Media Query Starts Here            
   -----------------------------------------*/
+
+  @media screen and (max-width: 768px) and (min-width: 320px) {
+      .mobile-arrow {
+        display: block;
+      }
+      
+  }
 
   @media (max-width: 600px) {
   .mobile {
@@ -1669,28 +1681,33 @@ border: 1px solid #111;
 }
 /* Enquire button end */
 
-/* Process Button */
+/* Arrow icon for mobile */
 
-.mobile-btn{
-  width: 150px;
+.arrow-text1{
   text-align: center;
-  border: 1px solid #707070;
-  color: #4B4B4B;
+  color: #D6A55D;
   font-size: 16px;
   font-family: "S-light";
 }
 
-.mobile-btn:hover, .mobile-btn:active, .mobile-btn:focus{
-  width: 150px;
-  text-align: center;
-  /*margin-left: -35%;*/
+.arrow-text1:hover, .arrow-text1:active, .arrow-text1:focus{
   color: #ffffff;
-  background-color: #D6A55D;
   font-family: "S-light";
-  border: none;
-  
 }
-/* Process button end */
+
+.arrow-text2{
+  text-align: center;
+  color: #D6A55D;
+  font-size: 16px;
+  font-family: "S-light";
+}
+
+.arrow-text2:hover, .arrow-text2:active, .arrow-text2:focus{
+  color: #ffffff;
+  font-family: "S-light";
+}
+
+/* End */
 
 /* Search Icon */
 
