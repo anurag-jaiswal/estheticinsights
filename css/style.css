@@ -1691,7 +1691,7 @@ border: 1px solid #111;
 }
 
 .arrow-text1:hover, .arrow-text1:active, .arrow-text1:focus{
-  color: #ffffff;
+  color: #D6A55D;
   font-family: "S-light";
 }
 
@@ -1703,7 +1703,7 @@ border: 1px solid #111;
 }
 
 .arrow-text2:hover, .arrow-text2:active, .arrow-text2:focus{
-  color: #ffffff;
+  color: #D6A55D;
   font-family: "S-light";
 }
 
