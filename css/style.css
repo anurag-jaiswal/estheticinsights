@@ -52,6 +52,14 @@ overflow-y: scroll !important;
   display: none; 
 }
 
+::-moz-scrollbar { 
+  display: none; 
+}
+
+::-ms-scrollbar { 
+  display: none; 
+}
+
 .index_logo{
 display: block;
 width: 280px;
@@ -1615,11 +1623,11 @@ left: 12%;
 
 .product-desc-grid{
 background-color: #F4F3F2;
-padding-top: 33px;
-padding-bottom: 14px;
+padding-top: 40px;
+padding-bottom: 20px;
 }
 .product-desc-grid p{
-margin-left: 25%;
+margin-left: 24%;
 }
 
 /*  Crousel Arrow CSS */

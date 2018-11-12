@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.3s;
   transition: 0.3s;
   padding: 0;
-  margin: 1px 0 0 0;
+  margin: 5px 0 0 0;
 }
 .fh5co-nav .menu-2 li input[type=text] {
   padding: 2px 0px;
@@ -161,16 +161,17 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 15px;
   margin-top: 10px;
   background-color: transparent;
+  font-family: "S-light";
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .fh5co-nav .menu-2 li input[type=text]:focus {
   width: 100%;
   outline: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
-
 
 /* .fh5co-nav .menu-2 li button {
   margin-top: 4px;

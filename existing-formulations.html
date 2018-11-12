@@ -197,13 +197,13 @@
         <h3 style="text-align: center!important;">Enquire</h3>
         <form>
 
-          <input type="text" name="username" class="username form-control" placeholder="Name"/>
+          <input type="text" name="username" class="username form-control" placeholder="Name" required />
 
-          <input type="Email" name="Email" class="Email form-control" placeholder="Email"/>
+          <input type="Email" name="Email" class="Email form-control" placeholder="Email" required />
 
-          <input type="tel" id="phone" name="phone" class="tel form-control" placeholder="Mobile" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+          <input type="tel" id="phone" name="phone" class="tel form-control" placeholder="Mobile" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
 
-          <input type="textarea" rows="4" cols="50" name="message" class="message form-control" placeholder="Message"/>
+          <input type="textarea" rows="4" cols="50" name="message" class="message form-control" placeholder="Message" required />
           
           <input class="btn enquire-btn text-center" type="submit" value="Submit" />
 
@@ -293,7 +293,6 @@
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
 <script>
-
      AOS.init();
 </script>
 
