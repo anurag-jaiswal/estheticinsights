@@ -41,7 +41,6 @@ src: url('../css/fonts/sofia_pro/Sofia Pro Ultra Light.otf');
 
 html, body {
    -ms-overflow-style: none; 
-   overflow: auto; 
 }
 
 /*    Index.html   */
