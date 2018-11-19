@@ -439,10 +439,6 @@ color: #D6A55D;
 opacity: 1;
 }
 
-.process-icon{
-width: 13.666667% !important;
-}
-
 .pt-20{
 padding: 20px;
 }
@@ -476,7 +472,7 @@ opacity: 1;
 font-size: 16px;
 font-family: "S-light";
 color: #000000;
-margin-top: 35px;
+margin-top: 80px;
 opacity: 1;
 }
 
@@ -587,7 +583,7 @@ opacity: 1;
 
 
 .p-case img {
-width: 100px;
+width: 175px;
 }
 
 .p-case1 img {
@@ -802,6 +798,7 @@ text-align: right !important;
   width: 280px;
   height: 45px;
   border: 1px solid #707070;
+  border-radius: 50px;
   background: #ffffff;
   color: #4B4B4B;
   font-size: 16px;
@@ -814,13 +811,148 @@ width: 280px;
 cursor: pointer;
 color: #ffffff;
 background-color: #D6A55D;
+border: none !important;
 font-family: "S-light";
-border: none;
-margin: 4px 2px;
+margin: 3px 2px;
 transition: 0.3s;
 z-index: 99999999;
-
 }
+
+.btn-process {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  /* box-shadow: 0 0 1px #ffffff; */
+  border-radius: 50px;
+  -webkit-transform: translateY(-6px);
+  -ms-transform: translateY(-6px);
+  transform: translateY(-6px);
+  -webkit-animation-name: hover;
+  animation-name: hover;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+.btn-process:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform, opacity;
+  transition-property: transform, opacity;
+  opacity: 0.4;
+  -webkit-transform: translateY(6px);
+  -ms-transform: translateY(6px);
+  transform: translateY(6px);
+  -webkit-animation-name: hover-shadow;
+  animation-name: hover-shadow;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+@keyframes hover {
+  50% {
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+  100% {
+    -webkit-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
+@-webkit-keyframes hover-shadow {
+  0% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+    opacity: 0.4;
+  }
+  50% {
+    -webkit-transform: translateY(3px);
+    transform: translateY(3px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+    opacity: 0.4;
+  }
+}
+@keyframes hover-shadow {
+  0% {
+    -webkit-transform: translateY(6px);
+    -ms-transform: translateY(6px);
+    transform: translateY(6px);
+    opacity: 0.4;
+  }
+  50% {
+    -webkit-transform: translateY(3px);
+    -ms-transform: translateY(3px);
+    transform: translateY(3px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(6px);
+    -ms-transform: translateY(6px);
+    transform: translateY(6px);
+    opacity: 0.4;
+  }
+}
+@-webkit-keyframes hover {
+  50% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+  100% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
+@keyframes hover {
+  50% {
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+  100% {
+    -webkit-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
+
 
 /*   Products  CSS  */
 
@@ -1100,7 +1232,7 @@ z-index: 99;
   #product-bg{
     background: url(../img/products/bottel-bg.jpg);
     text-align: center;
-    padding: 0px 0px 10px;
+    padding: 20px 0px 5px;
   }
 
 
@@ -1276,10 +1408,10 @@ z-index: 99;
   }
 
   .logo1 {
-  width: 145px;
-  height: 45px;
+  width: 135px;
+  height: 40px;
   top: 20px;
-  left: 10px;
+  left: 20px;
   opacity: 1;
   position: relative;
   }
@@ -1381,6 +1513,7 @@ z-index: 99;
   .product-img1 {
   width: 235px;
   margin-left: 2.1em !important;
+  margin: 30px;
   padding: 1em 0px;
   }
   .product .desc h3 a {
@@ -1399,11 +1532,10 @@ z-index: 99;
   .signin-btn:hover, .signin-btn:active, .signin-btn:focus{
   width: 100px;
   text-align: center;
-  color: #ffffff;
-  background-color: #D6A55D;
+  color: #ffffff !important;
+  background-color: #D6A55D !important;
   font-family: "S-light";
   border: none;
-
   }
 
   .btn-1{
@@ -1513,28 +1645,37 @@ display: none;
 display: none;
 } 
 
-#gotoproduct img{
-display: none;
-}
+.process-icon{
+  width: 25% !important;
+  }
 
-#gotoprocess img{
-display: none;
-}
+  #gotoproduct img{
+  display: none;
+  }
 
-#selection h3 {
-right: 11%;
-}
+  #gotoprocess img{
+  display: none;
+  }
 
-#selection h2 {
-left: 12%;
-}
+  #selection h3 {
+  right: 7%;
+  }
 
-.product-details h1 {
-        padding-top: 1.3em !important;
-    }
-.list-inline{
-text-align: left !important;
-}
+  #selection h2 {
+  left: 8%;
+  }
+
+  .product-details h1 {
+    padding-top: 1.3em !important;
+  }
+
+  .related-product img {
+    width: 120px;
+  }
+
+  .list-inline{
+  text-align: left !important;
+  }
 
 }
 
@@ -1983,7 +2124,7 @@ box-sizing: border-box;
 * =====================================================
 */
 footer.main-footer {
-padding: 20px 0;
+padding: 10px 0;
 background: #000000;
 color: #fff;
 padding-bottom: 0;
@@ -2034,10 +2175,10 @@ font-family: "S-light";
 color: #B5B5B5;
 }
 
-.copyrights {
-margin-top: 2rem;
-padding: 1.25rem 0;
-}
+/* .copyrights {
+    margin-top: 1rem;
+    padding: 1rem;
+} */
 
 
 
