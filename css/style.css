@@ -959,7 +959,7 @@ z-index: 99999999;
 #productsNavi {
 position: fixed;
 right: 40px;
-top: 35%;
+top: 34%;
 }
 
 #productsNavi div{
@@ -1258,7 +1258,7 @@ z-index: 99;
     width: 215px;
     position: fixed;
     left: -4%;
-    top: 44%;
+    top: 42%;
     z-index: 99;
   }
 
@@ -1278,7 +1278,7 @@ z-index: 99;
     width: 215px;
     position: fixed;
     right: -4%;
-    top: 44%;
+    top: 43%;
     z-index: 99;
   }
 
@@ -1687,6 +1687,7 @@ display: none;
 .cleanser-col{
 padding-right: 50px;
 padding-left: 50px;
+margin-top: 1%;
 }
 .img-background{
 background-color: #f4f3f2;
@@ -2183,3 +2184,8 @@ color: #B5B5B5;
 
 
 /* Footer Ends */
+
+.page-section {
+  padding: 2em;
+  /* background: linear-gradient(45deg, #43cea2 10%, #185a9d 90%); */
+}
