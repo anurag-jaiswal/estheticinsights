@@ -307,7 +307,7 @@ font-family: "S-black";
 
 position: fixed;
 left: 22%;
-top: 49%;
+top: 48%;
 }
 
 #selection h3{
@@ -320,7 +320,7 @@ text-align: center;
 font-family: "S-black";
 position: fixed;
 right: 22%;
-top: 49%;
+top: 48%;
 }
 
 #selection a:hover, a:active, a:focus{
@@ -1020,7 +1020,7 @@ cursor: pointer;
 }
 
 .products-navi-item.skin-side-tab1 {
-top: -1.7em;  
+top: -1.6em;  
 }
 
 .repairs-navi-item.skin-side-tab2 {  
@@ -1687,7 +1687,7 @@ display: none;
 .cleanser-col{
 padding-right: 50px;
 padding-left: 50px;
-margin-top: 10%;
+margin-top: 1%;
 }
 .img-background{
 background-color: #f4f3f2;
@@ -1991,7 +1991,7 @@ opacity: 1;
 
 /* Slider */
 .slick-slide {
-  margin: 0px 20px;
+  margin: 0px 35px;
 }
 
 .slick-slide img {
