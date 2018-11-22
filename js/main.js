@@ -99,3 +99,6 @@ function plus2() {
 	document.getElementById('num3').value = value;
   }
 
+// Active 
+
+
